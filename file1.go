@@ -9,9 +9,11 @@ package main
 import "fmt"
 
 func main(){
-	
-	// can use Print , Printf or Println
-	
 	fmt.Println("Hello")
 	fmt.Print("World")
 }
+
+/*
+can use Print , Printf or Println
+Note : when using Printf we need to use format specifier
+*/
