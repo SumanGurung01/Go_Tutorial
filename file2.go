@@ -53,14 +53,17 @@ Complex Type : complex64 , complex128
 String
 Go does not have char it uses rune , byte 
 
-Note : 1. when printing values using Println or Print no need to use %
-	   2. but this does not print the value rune or byte so we use Printf and we need mention the format specifier
+Note : 
+1. when printing values using Println or Print no need to use %
+2. but this does not print the value rune or byte so we use Printf and we need mention the format specifier
 
-		%d -> integer
-		%v -> values
-		%f -> float 
-		%c -> character when declared as byte or rune
-		%s -> string
+%d -> integer
+%v -> values
+%f -> float 
+%c -> character when declared as byte or rune
+%s -> string
+
+
 
 I/O
 
