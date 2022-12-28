@@ -20,7 +20,7 @@ func max(num1 int, num2 int) {
 
 func sum(array [10]int, n int) int {
 	var result int = 0
-	for i := 0; i < 10; i++ {
+	for i := 0; i < n; i++ {
 		result = result + array[i]
 	}
 	return result
@@ -42,31 +42,12 @@ func main() {
 }
 
 /*
-	SYNTAX :
+SYNTAX:
 
-	1. FOR LOOP
-	for initialization ; condition ; updatation {
-		body ...
-	}
+func function_name ( argument_list) return_type{
+	body...
 
+	return
+}
 
-	2. WHILE LOOP
-	initialization
-	for condition {
-		body ...
-		updatation
-	}
-
-
-	3. DO WHILE LOOP
-	initialization
-	for {
-		body...
-		updatation
-		if condition{
-			break
-		}
-	}
-
-	Note : Go has only for which perform all kinds of looping
 */
